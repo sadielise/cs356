@@ -1,0 +1,17 @@
+Assignment: PA1
+Class: CS356
+Name: Sadie Henry
+Date: 2/13/2016
+
+Files: main.cpp makefile StreamCipher.cpp StreamCipher.h BlockCipher.cpp BlockCipher.h
+
+Description: This program encrypts and decrypts ASCII character files using either a stream or block cipher. 
+
+Arguments:
+	1: B (block cipher) or S (stream cipher)
+	2: input file name (file should be a multiple of 8 bits)
+ 	3: output file name
+	4: key file name (8 bytes for block, any length for stream)
+	5: E (encrypt) or D (decrypt)
+
+Usage: The key files cannot contain newlines. White space will be preserved in both the encryption and decryption process. Encrypting an input file and then decrypting the resulting file will produce a file that exactly matches the input file. 
